@@ -1,8 +1,8 @@
 extends CharacterBody3D
 
 
-const SPEED = 5.0
-const JUMP_VELOCITY = 12
+const SPEED = 6.5
+const JUMP_VELOCITY = 13
 const CAM_ROTATION_SPEED = 0.0008
 
 @export var camera_speed = 0.09
@@ -15,10 +15,10 @@ var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 func _physics_process(delta: float) -> void:
 	# Rotate camera
-	if Input.is_action_pressed("camera_left"):
-		$Camera_Controller.rotate_y(rad_to_deg(-CAM_ROTATION_SPEED))	
-	if Input.is_action_pressed("camera_right"):
-		$Camera_Controller.rotate_y(rad_to_deg(CAM_ROTATION_SPEED))	
+	#if Input.is_action_pressed("camera_left"):
+		#$Camera_Controller.rotate_y(rad_to_deg(-CAM_ROTATION_SPEED))	
+	#if Input.is_action_pressed("camera_right"):
+		#$Camera_Controller.rotate_y(rad_to_deg(CAM_ROTATION_SPEED))	
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y -= gravity * delta
@@ -68,9 +68,9 @@ func align_with_floor(floor_normal):
 	player_transform.basis = player_transform.basis.orthonormalized()
 
 
-func _on_fall_zone_body_entered(_body: Node3D) -> void:
-	change_scene.bind("res://level_1.tscn").call_deferred()
-	
-
-func change_scene(scene):
-	get_tree().change_scene_to_file(scene)
+#func _on_fall_zone_body_entered(_body: Node3D) -> void:
+	#change_scene.bind("res://level_1.tscn").call_deferred()
+	#
+#
+#func change_scene(scene):
+	#get_tree().change_scene_to_file(scene)

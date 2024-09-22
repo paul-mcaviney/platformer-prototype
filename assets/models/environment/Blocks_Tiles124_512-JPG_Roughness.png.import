@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bde40mm0nrl71"
-path.s3tc="res://.godot/imported/Blocks_Tiles124_512-JPG_Roughness.png-03079b213bd9a78a68534142b27eb8cd.s3tc.ctex"
+path.s3tc="res://.godot/imported/Blocks_Tiles124_512-JPG_Roughness.png-674df6fd4b72cabfc554ce9b1095cd0b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/models/Blocks_Tiles124_512-JPG_Roughness.png"
-dest_files=["res://.godot/imported/Blocks_Tiles124_512-JPG_Roughness.png-03079b213bd9a78a68534142b27eb8cd.s3tc.ctex"]
+source_file="res://assets/models/environment/Blocks_Tiles124_512-JPG_Roughness.png"
+dest_files=["res://.godot/imported/Blocks_Tiles124_512-JPG_Roughness.png-674df6fd4b72cabfc554ce9b1095cd0b.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgclr2d6y1p7i"
-path.s3tc="res://.godot/imported/Blocks_Tiles124_512_JPG_NormalGL.jpg-fa094aa4191fc2603976474dc944331d.s3tc.ctex"
+path.s3tc="res://.godot/imported/Blocks_Tiles124_512_JPG_NormalGL.jpg-8f9ae95f1b6c747d8b19b6e8b05843cf.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/models/Blocks_Tiles124_512_JPG_NormalGL.jpg"
-dest_files=["res://.godot/imported/Blocks_Tiles124_512_JPG_NormalGL.jpg-fa094aa4191fc2603976474dc944331d.s3tc.ctex"]
+source_file="res://assets/models/environment/Blocks_Tiles124_512_JPG_NormalGL.jpg"
+dest_files=["res://.godot/imported/Blocks_Tiles124_512_JPG_NormalGL.jpg-8f9ae95f1b6c747d8b19b6e8b05843cf.s3tc.ctex"]
 
 [params]
 
