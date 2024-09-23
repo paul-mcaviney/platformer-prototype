@@ -37,8 +37,9 @@ func _physics_process(delta: float) -> void:
 	
 	# Rotate character mesh so oriented towards movement direction in relation to camera
 	if input_dir != Vector2.ZERO:
-		$MeshInstance3D.rotation_degrees.y = $Camera_Controller.rotation_degrees.y  - rad_to_deg(input_dir.angle()) - 90
-	
+		#$MeshInstance3D.rotation_degrees.y = $Camera_Controller.rotation_degrees.y  - rad_to_deg(input_dir.angle()) - 90
+		$Armature/Skeleton3D.rotation_degrees.y = $Camera_Controller.rotation_degrees.y  - rad_to_deg(input_dir.angle()) - 90
+		
 	# Rotate character to align with the floor
 	if is_on_floor():
 		align_with_floor($RayCast3D.get_collision_normal())
